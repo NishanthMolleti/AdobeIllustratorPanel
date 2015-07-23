@@ -1,0 +1,534 @@
+TEmptyPanel
+v6
+r1
+cCheck dependencies
+cPreprocess /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/mac/Info.plist
+cProcessInfoPlistFile /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/EmptyPanel.aip/Contents/Info.plist /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist
+cProcessPCH++ /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch.pch ./../common/includes/IllustratorSDKdebug.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-hbnrjrhbrsvednboieelzcdohfrf/IllustratorSDKdebug.pch.pch ./../common/includes/IllustratorSDKdebug.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IllustratorSDK.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/IllustratorSDK.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/AppContext.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/AppContext.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Main.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Main.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Plugin.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Plugin.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKAboutPluginsHelper.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKErrors.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKErrors.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Suites.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Suites.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIStringFormatUtils.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIStringFormatUtils.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIUnicodeString.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIUnicodeString.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPlugin.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/EmptyPanelPlugin.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPluginSuites.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/CalcController.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/CalcController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/BarController.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/BarController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/SDKSettings.plist
+c000000005439C1C80000000000000539
+t1413071304
+s1337
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005439C1C800000000000001DE
+t1413071304
+s478
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIStringFormatUtils.cpp
+c0000000053998EE000000000000015DD
+t1402572512
+s5597
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIUnicodeString.cpp
+c0000000053998EE100000000000038C4
+t1402572513
+s14532
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/AppContext.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/BarController.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/CalcController.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPlugin.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPluginSuites.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIStringFormatUtils.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIUnicodeString.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IllustratorSDK.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Main.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Plugin.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKErrors.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Suites.o
+t2
+s0
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist
+t1437573157
+s1273
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/BarController.mm
+c0000000053998EE2000000000000073C
+t1402572514
+s1852
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/CalcController.mm
+c0000000055AF9F2B00000000000006CF
+t1437572907
+s1743
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPlugin.cpp
+c0000000053998EE100000000000076FD
+t1402572513
+s30461
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.cpp
+c0000000055AFA0200000000000000722
+t1437573152
+s1826
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/includes/IllustratorSDKdebug.pch
+c0000000053998EE10000000000000381
+t1402572513
+s897
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/mac/Info.plist
+c0000000053998EE100000000000005E1
+t1402572513
+s1505
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/AppContext.cpp
+c0000000053998EE00000000000000556
+t1402572512
+s1366
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/IllustratorSDK.cpp
+c0000000053998EE000000000000002DC
+t1402572512
+s732
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Main.cpp
+c0000000053998EE00000000000000BFC
+t1402572512
+s3068
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Plugin.cpp
+c0000000053998EE0000000000000489B
+t1402572512
+s18587
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/SDKAboutPluginsHelper.cpp
+c0000000053998EE2000000000000102D
+t1402572514
+s4141
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/SDKErrors.cpp
+c0000000053998EE000000000000008A6
+t1402572512
+s2214
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Suites.cpp
+c0000000053998EE000000000000010CF
+t1402572512
+s4303
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/output/mac/debug/EmptyPanel.aip/Contents/Info.plist
+t1437564493
+s1665
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/output/mac/debug/EmptyPanel.aip/Contents/PkgInfo
+t1437564493
+s8
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch.pch
+t1437564494
+s11569144
+
+N/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-hbnrjrhbrsvednboieelzcdohfrf/IllustratorSDKdebug.pch.pch
+t1437564494
+s11568948
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIStringFormatUtils.cpp
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIUnicodeString.cpp
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/BarController.mm
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/CalcController.mm
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/EmptyPanelPlugin.cpp
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.cpp
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/AppContext.cpp
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/IllustratorSDK.cpp
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Main.cpp
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Plugin.cpp
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKAboutPluginsHelper.cpp
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKErrors.cpp
+r0
+
+CBuild AST from /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Suites.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc844aaa5d75fbb41^a489bba5d75fbb41^---0#1#1#--18"Check dependencies36"B1C129F7-04A1-43D2-BD9F-A795DAEBA892-
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/AppContext.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/AppContext.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.748362
+e459265957.807015
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/AppContext.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/AppContext.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/AppContext.cpp
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/includes/AppContext.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/AppContext.cpp255"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/AppContext.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/AppContext.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerf8a8bfa5d75fbb41^8998cea5d75fbb41^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/common/source/AppContext.cpp0000000000000000^4127"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/AppContext.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/AppContext.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/AppContext.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/AppContext.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/AppContext.cpp -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/AppContext.o36"68F70E39-F328-4CDC-B9C3-C84519E0900F-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/BarController.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/BarController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.947169
+e459265958.465336
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/BarController.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/BarController.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/BarController.mm
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/BarController.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIControlBar.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIHeaderBegin.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIHeaderEnd.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIPanel.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIStringFormatUtils.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIStringFormatUtils.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAILocale.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/BarController.mm184"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/BarController.o Source/BarController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler12a0f2a5d75fbb41^ff2377a6d75fbb41^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/EmptyPanel/Source/BarController.mm0000000000000000^4071"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/BarController.o Source/BarController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/BarController.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/BarController.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/BarController.mm -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/BarController.o36"645C754A-8A25-4714-A56A-F5014514D734-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/CalcController.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/CalcController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.869657
+e459265958.365111
+r0
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/CalcController.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/CalcController.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/CalcController.mm
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/CalcController.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIPanel.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIStringFormatUtils.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIStringFormatUtils.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAILocale.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIHeaderBegin.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIHeaderEnd.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIControlBar.h
+o/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/CalcController.mm:49:18: error: use of undeclared identifier 'sAIDocument'
+o    AIErr esrr = sAIDocument->WriteDocumentWithOptions(aiFile1, fileFormatName,
+o                 ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/CalcController.mm186"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/CalcController.o Source/CalcController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler75c7dea5d75fbb41^ab765da6d75fbb41^-276"/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/CalcController.mm:49:18: error: use of undeclared identifier 'sAIDocument'    AIErr esrr = sAIDocument->WriteDocumentWithOptions(aiFile1, fileFormatName,                 ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@42"Use of undeclared identifier 'sAIDocument'-459265958#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@115"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/EmptyPanel/Source/CalcController.mm0000000000000000^48#17#48#17#1236#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@115"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/EmptyPanel/Source/CalcController.mm0000000000000000^4077"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/CalcController.o Source/CalcController.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/CalcController.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/CalcController.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/CalcController.mm -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/CalcController.o36"4F6FA664-7663-4997-B2D9-CC453F13AF75-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPlugin.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/EmptyPanelPlugin.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.807242
+e459265958.465315
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPlugin.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPlugin.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPlugin.cpp
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/CalcController.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIPanel.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIStringFormatUtils.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIStringFormatUtils.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAILocale.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIHeaderBegin.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIHeaderEnd.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIControlBar.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/BarController.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPlugin.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/includes/SDKDef.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/includes/SDKAboutPluginsHelper.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanleID.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPlugin.cpp191"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPlugin.o Source/EmptyPanelPlugin.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler65c3cea5d75fbb41^432077a6d75fbb41^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/EmptyPanel/Source/EmptyPanelPlugin.cpp0000000000000000^4108"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPlugin.o Source/EmptyPanelPlugin.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -x objective-c++ -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-hbnrjrhbrsvednboieelzcdohfrf/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPlugin.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPlugin.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/EmptyPanelPlugin.cpp -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPlugin.o36"2667F7C8-7B68-42C4-A7A1-3E3CFBC9B54E-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPluginSuites.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.817849
+e459265958.016932
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPluginSuites.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.cpp
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIPanel.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIStringFormatUtils.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIStringFormatUtils.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAILocale.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIHeaderBegin.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIHeaderEnd.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIControlBar.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.cpp203"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPluginSuites.o Source/EmptyPanelPluginSuites.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compilercac0d1a5d75fbb41^2e5604a6d75fbb41^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.cpp0000000000000000^4127"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPluginSuites.o Source/EmptyPanelPluginSuites.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPluginSuites.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPluginSuites.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/EmptyPanelPluginSuites.cpp -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/EmptyPanelPluginSuites.o36"6121DA53-1682-4BB9-907A-471C77F1D6FE-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIStringFormatUtils.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIStringFormatUtils.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.751598
+e459265957.964167
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIStringFormatUtils.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIStringFormatUtils.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIStringFormatUtils.cpp
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIStringFormatUtils.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAILocale.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIStringFormatUtils.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIHeaderBegin.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/AIHeaderEnd.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIStringFormatUtils.cpp277"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIStringFormatUtils.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIStringFormatUtils.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler3197c0a5d75fbb41^b8e6f6a5d75fbb41^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/illustratorapi/illustrator/IAIStringFormatUtils.cpp0000000000000000^4191"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIStringFormatUtils.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIStringFormatUtils.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIStringFormatUtils.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIStringFormatUtils.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIStringFormatUtils.cpp -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIStringFormatUtils.o36"77D22656-9A5F-4B53-B16F-83B05F31A8C3-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIUnicodeString.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIUnicodeString.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.803790
+e459265958.094031
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIUnicodeString.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIUnicodeString.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIUnicodeString.cpp
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIUnicodeString.inl
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIAutoBuffer.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/illustrator/IAIUnicodeString.cpp269"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIUnicodeString.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIUnicodeString.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler7c0ccea5d75fbb41^b61418a6d75fbb41^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/illustratorapi/illustrator/IAIUnicodeString.cpp0000000000000000^4167"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIUnicodeString.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIUnicodeString.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIUnicodeString.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIUnicodeString.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/illustratorapi/illustrator/IAIUnicodeString.cpp -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IAIUnicodeString.o36"8C6F65EA-E745-4940-9907-C1C2C3444F6D-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IllustratorSDK.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/IllustratorSDK.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.748147
+e459265957.802401
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IllustratorSDK.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/IllustratorSDK.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/IllustratorSDK.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/IllustratorSDK.cpp263"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IllustratorSDK.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/IllustratorSDK.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerb399bfa5d75fbb41^c269cda5d75fbb41^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/common/source/IllustratorSDK.cpp0000000000000000^4151"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IllustratorSDK.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/IllustratorSDK.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IllustratorSDK.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IllustratorSDK.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/IllustratorSDK.cpp -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/IllustratorSDK.o36"412D53BB-D2DD-47A7-B9B9-E29C9DE26FB1-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Main.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Main.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.748641
+e459265957.946914
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Main.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Main.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Main.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Main.cpp243"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Main.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Main.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerdec9bfa5d75fbb41^9373f2a5d75fbb41^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/common/source/Main.cpp0000000000000000^4091"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Main.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Main.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Main.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Main.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Main.cpp -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Main.o36"64AECF29-5CC1-44E5-B898-B5719B07B1A9-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Plugin.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Plugin.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.748907
+e459265958.011920
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Plugin.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Plugin.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Plugin.cpp
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/includes/AppContext.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Plugin.cpp247"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Plugin.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Plugin.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler06d8bfa5d75fbb41^a60d03a6d75fbb41^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/common/source/Plugin.cpp0000000000000000^4103"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Plugin.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Plugin.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Plugin.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Plugin.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Plugin.cpp -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Plugin.o36"EB59FEF1-A089-4641-9DE7-5013C5E0541F-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKAboutPluginsHelper.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.749464
+e459265957.869077
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/SDKAboutPluginsHelper.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/SDKAboutPluginsHelper.cpp
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/includes/SDKDef.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/includes/SDKAboutPluginsHelper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/SDKAboutPluginsHelper.cpp277"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKAboutPluginsHelper.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler9f02c0a5d75fbb41^187cdea5d75fbb41^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/common/source/SDKAboutPluginsHelper.cpp0000000000000000^4193"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKAboutPluginsHelper.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKAboutPluginsHelper.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKAboutPluginsHelper.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKAboutPluginsHelper.cpp -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKAboutPluginsHelper.o36"1AAEEB6E-448F-41F4-8191-A22D20937C83-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKErrors.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKErrors.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.749785
+e459265957.817591
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKErrors.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/SDKErrors.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/SDKErrors.cpp
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/includes/SDKErrors.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/SDKErrors.cpp253"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKErrors.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKErrors.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler651bc0a5d75fbb41^a2d4d2a5d75fbb41^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/common/source/SDKErrors.cpp0000000000000000^4121"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKErrors.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKErrors.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKErrors.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKErrors.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/SDKErrors.cpp -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/SDKErrors.o36"869433EA-D7F3-41CC-B962-5695881AB918-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Suites.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Suites.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s459265957.750273
+e459265957.955461
+r1
+xCompileC
+xEmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Suites.o
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Suites.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Suites.cpp
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/pica_sp/SPRuntme.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/pica_sp/SPSuites.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/pica_sp/SPHeaderBegin.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/pica_sp/SPErrorCodes.h
+d/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/illustratorapi/pica_sp/SPHeaderEnd.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/source/Suites.cpp247"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Suites.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Suites.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler1b47c0a5d75fbb41^6a84f6a5d75fbb41^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/common/source/Suites.cpp0000000000000000^4103"CompileC EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Suites.o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Suites.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wunknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-generated-files.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-own-target-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-all-target-headers.hmap -iquote /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/EmptyPanel-project-headers.hmap -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/include -I../../illustratorapi -I../../illustratorapi/ate -I../../illustratorapi/illustrator -I../../illustratorapi/pica_sp -I../../illustratorapi/ate/legacy -I../../illustratorapi/ate/SloTextdomTypes -I../../illustratorapi/illustrator/actions -I/Developer/Headers/FlatCarbon -I. -IEmptyPanel.build -IResource -ISource -IEmptyPanel.build/Default -IResource/Mac -IResource/raw -IResource/Win -IEmptyPanel.build/Default/EmptyPanel.build -I../common -I../common/includes -I../common/mac -I../common/source -I../common/win -I../common/includes/legacy -I../common/source/legacy -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources/x86_64 -I/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/DerivedSources -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch -MMD -MT dependencies -MF /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Suites.d --serialize-diagnostics /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Suites.dia -c /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/source/Suites.cpp -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Objects-normal/x86_64/Suites.o36"3140E6C7-71B9-4E05-A8ED-1539059CBD11-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CCompileXIB /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/ControlPanel.xib
+r0
+
+CCompileXIB /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/Source/View.xib
+r0
+
+CLd /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/EmptyPanel.aip/Contents/MacOS/EmptyPanel normal x86_64
+r0
+
+CPhaseScriptExecution Run\ Script /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Script-FA13BD3F17E35D5700496E84.sh
+r0
+
+CPreprocess /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/mac/Info.plist
+s459265957.734972
+e459265957.745242
+r1
+xPreprocess
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/common/mac/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"Preprocess EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/mac/Info.plist167"Preprocess EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/mac/Info.plistda3abca5d75fbb41^58cabea5d75fbb41^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/common/mac/Info.plist0000000000000000^738"Preprocess EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/mac/Info.plist    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -E -P -x c -Wno-trigraphs /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/common/mac/Info.plist -F/Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug -include ../common/includes/SDKDef.h -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist36"A83880BB-E547-460A-84AC-5A38DD9661C4-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CProcessInfoPlistFile /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/EmptyPanel.aip/Contents/Info.plist /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist
+s459265957.745733
+e459265957.747023
+r1
+xProcessInfoPlistFile
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/output/mac/debug/EmptyPanel.aip/Contents/Info.plist
+x/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Process /Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist207"ProcessInfoPlistFile /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/EmptyPanel.aip/Contents/Info.plist EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plistedf5bea5d75fbb41^944bbfa5d75fbb41^---0#0#1#-19%DVTDocumentLocation2@156"file:///Users/xcorex/Downloads/Adobe%20Illustrator%20CC%202014%20SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist0000000000000000^760"ProcessInfoPlistFile /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/EmptyPanel.aip/Contents/Info.plist EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist    cd "/Users/xcorex/Downloads/Adobe Illustrator CC 2014 SDK/samplecode/EmptyPanel"    builtin-infoPlistUtility /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/Preprocessed-Info.plist -genpkginfo /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/EmptyPanel.aip/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/EmptyPanel.aip/Contents/Info.plist36"BCA053AD-80DE-42DA-A1F1-B0EA50AEB035-
+b9DC53795-49AD-4F23-B888-28B375EB2321
+
+CProcessPCH++ /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-asgnhwoqpfmwvxfmodnzxvnaxcfi/IllustratorSDKdebug.pch.pch ./../common/includes/IllustratorSDKdebug.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH++ /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/sharedprecompiledheaders/debug/IllustratorSDKdebug-hbnrjrhbrsvednboieelzcdohfrf/IllustratorSDKdebug.pch.pch ./../common/includes/IllustratorSDKdebug.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH++ /Users/xcorex/Library/Developer/Xcode/DerivedData/EmptyPanel-cuicohuwkqsnflddopnpuypzeece/Index/PrecompiledHeaders/IllustratorSDKdebug-amtdkundrdvuupghvhqhzdrwcdku_ast/IllustratorSDKdebug.pch.pch ./../common/includes/IllustratorSDKdebug.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/xcorex/Library/Developer/Xcode/DerivedData/EmptyPanel-cuicohuwkqsnflddopnpuypzeece/Index/PrecompiledHeaders/IllustratorSDKdebug-fhhnzbbjkatcvbdgbpkuyzeanopf_ast/IllustratorSDKdebug.pch.pch ./../common/includes/IllustratorSDKdebug.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CResMergerCollector /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/ResourceManagerResources/EmptyPanel.rsrc
+r0
+
+CResMergerProduct /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/EmptyPanel.aip/Contents/Resources/EmptyPanel.rsrc
+r0
+
+CRez /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/EmptyPanel/EmptyPanel.build/Default/EmptyPanel.build/ResourceManagerResources/Objects/EmptyPanel.rsrc Resource/Mac/EmptyPanel.r
+r0
+
+CTouch /Users/xcorex/Downloads/Adobe\ Illustrator\ CC\ 2014\ SDK/samplecode/output/mac/debug/EmptyPanel.aip
+r0
+
