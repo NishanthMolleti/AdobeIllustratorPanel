@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>30693BAD-0926-494B-89FE-FDB36F53B76C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EmptyPanel</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>108D66F03A344938FCF770C020A4A8A961C6FDB4</key>
+		<string>https://github.com/badgeek/AdobeIllustratorPanel.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EmptyPanel.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>108D66F03A344938FCF770C020A4A8A961C6FDB4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/badgeek/AdobeIllustratorPanel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>108D66F03A344938FCF770C020A4A8A961C6FDB4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>108D66F03A344938FCF770C020A4A8A961C6FDB4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EmptyPanel</string>
+		</dict>
+	</array>
+</dict>
+</plist>

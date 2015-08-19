@@ -267,11 +267,16 @@ ASErr EmptyPanelPlugin::StartupPlugin(SPInterfaceMessage *message)
 		error = sAIControlBar->SetSizeChangedNotifyProc(fControlBar, ControlBarSizeChangedNotifyProc);
 	
 	//Add Different Widgets to Control Bar
-	if(!error)
-		AddWidgetsToControlBar();
+//	if(!error)
+//		AddWidgetsToControlBar();
+    
+    error = sAINotifier->AddNotifier(fPluginRef, "SelectionChanged", kAIArtSelectionChangedNotifier, &fArtSelectionChangedNotifier);
+
 	
 	return error;
 }
+
+
 
 AIErr EmptyPanelPlugin::AddWidgets()
 {
@@ -279,113 +284,105 @@ AIErr EmptyPanelPlugin::AddWidgets()
 	AIPanelPlatformWindow hDlg = NULL;
 	error = sAIPanel->GetPlatformWindow(fPanel, hDlg);
 
-	
-#ifdef MAC_ENV
-	// Get our own bundle
+    // Get our own bundle
 	NSBundle* bundle = [NSBundle bundleWithIdentifier:@"com.adobe.illustrator.plugins.EmptyPanel"];
 	//load the nib file
-	CalcController* calculator = [CalcController alloc];
-    
-    //here
-    //AppContext appContext(GetPluginRef());
-    
-    
-    
-    //here
-    
-    
+    calculator = [CalcController alloc];
+
 	[calculator initWithNibName:@"View" bundle:bundle ctx:GetPluginRef()];
 	//set panel to be our nibs view
-    
 
 	NSView* newView = [calculator view];
 	[hDlg setFrame:[newView frame]];
 	[hDlg addSubview:newView];
+    [hDlg setAutoresizesSubviews:YES];
+    [hDlg setAutoresizingMask:NSViewWidthSizable | NSViewHeightSizable];
+    
+    
 	[calculator setContext:GetPluginRef()];
     
-#endif
 	return error;
 }
 
-AIErr EmptyPanelPlugin::AddWidgetsToControlBar()
-{
-	AIErr error = kNoErr;
-	AIControlBarPlatformWindow ctrlBarPlatformWindow = NULL;
-	
-	error = sAIControlBar->GetPlatformWindow(fControlBar, ctrlBarPlatformWindow);
-
-	if (error)
-		return error;
-	
-	if(ctrlBarPlatformWindow)
-	{
-		
-        #ifdef MAC_ENV
-		
-		//Uncomment this section for code that does not use a nib (not recommended)
-		/* 
-		NSRect widthTextEditFrame = NSMakeRect(10, 10, 70, 18);
-		NSTextField* widthTextEditField = [[NSTextField alloc] initWithFrame:widthTextEditFrame];
-		[ctrlBarPlatformWindow addSubview:widthTextEditField];
-		
-		NSRect minWidthTextEditFrame = NSMakeRect(85, 10, 40, 18);
-		NSTextField* minWidthTextEditField = [[NSTextField alloc] initWithFrame:minWidthTextEditFrame];
-		[ctrlBarPlatformWindow addSubview:minWidthTextEditField];
-		
-		NSRect commitButtonFrame = NSMakeRect(130, 8, 60, 22);
-		NSButton *commitButton = [[NSButton alloc] initWithFrame:commitButtonFrame];
-		[commitButton setTitle:@"Commit"];
-		[ctrlBarPlatformWindow addSubview:commitButton]; 
-		 
-		 */
-		
-		//Uncomment below for example loading nib without NSViewController (CalcController classes)
-		/*
-		NSBundle* bundle = [NSBundle bundleWithIdentifier:@"com.adobe.illustrator.plugins.EmptyPanel"];
-		
-		// Replace "View" with your own nib file
-		NSNib*      aNib = [[NSNib alloc] initWithNibNamed:@"ControlPanel" bundle:bundle];
-		NSArray*    topLevelObjs = nil;
-		
-		// ***** Loads Nib ******
-		if (![aNib instantiateNibWithOwner:ctrlBarPlatformWindow topLevelObjects:&topLevelObjs])
-		{
-			NSLog(@"Warning! Could not load nib file.\n");
-			return nil;
-		}
-		
-		for(id topView in topLevelObjs)
-		{
-			if([topView isKindOfClass:[NSView class]])
-			{
-				controlPanelNibView = topView;
-				break;
-			}
-		}
-		
-		//This could also be done from IB
-		[controlPanelNibView setAutoresizingMask:0];
-		[ctrlBarPlatformWindow setFrame:[controlPanelNibView frame]];
-		[ctrlBarPlatformWindow addSubview:controlPanelNibView];
-		[controlPanelNibView release];*/
-		
-		NSBundle* bundle = [NSBundle bundleWithIdentifier:@"com.adobe.illustrator.plugins.EmptyPanel"];
-		BarController* barcontroller = [BarController alloc];
-		[barcontroller initWithNibName:@"ControlPanel" bundle:bundle];
-		
-		NSView* newView = [barcontroller view];
-		
-		[ctrlBarPlatformWindow setFrame:[newView frame]];
-		[ctrlBarPlatformWindow addSubview:newView];
-		[barcontroller setControlBarRef:fControlBar];
-        [barcontroller setCtx:GetPluginRef()];
-
-        
-        
-#endif
-	}
-	return error;
-}
+//AIErr EmptyPanelPlugin::AddWidgetsToControlBar()
+//{
+//	AIErr error = kNoErr;
+//	AIControlBarPlatformWindow ctrlBarPlatformWindow = NULL;
+//	
+//	error = sAIControlBar->GetPlatformWindow(fControlBar, ctrlBarPlatformWindow);
+//
+//	if (error)
+//		return error;
+//	
+//	if(ctrlBarPlatformWindow)
+//	{
+//		
+//        #ifdef MAC_ENV
+//		
+//		//Uncomment this section for code that does not use a nib (not recommended)
+//		/* 
+//		NSRect widthTextEditFrame = NSMakeRect(10, 10, 70, 18);
+//		NSTextField* widthTextEditField = [[NSTextField alloc] initWithFrame:widthTextEditFrame];
+//		[ctrlBarPlatformWindow addSubview:widthTextEditField];
+//		
+//		NSRect minWidthTextEditFrame = NSMakeRect(85, 10, 40, 18);
+//		NSTextField* minWidthTextEditField = [[NSTextField alloc] initWithFrame:minWidthTextEditFrame];
+//		[ctrlBarPlatformWindow addSubview:minWidthTextEditField];
+//		
+//		NSRect commitButtonFrame = NSMakeRect(130, 8, 60, 22);
+//		NSButton *commitButton = [[NSButton alloc] initWithFrame:commitButtonFrame];
+//		[commitButton setTitle:@"Commit"];
+//		[ctrlBarPlatformWindow addSubview:commitButton]; 
+//		 
+//		 */
+//		
+//		//Uncomment below for example loading nib without NSViewController (CalcController classes)
+//		/*
+//		NSBundle* bundle = [NSBundle bundleWithIdentifier:@"com.adobe.illustrator.plugins.EmptyPanel"];
+//		
+//		// Replace "View" with your own nib file
+//		NSNib*      aNib = [[NSNib alloc] initWithNibNamed:@"ControlPanel" bundle:bundle];
+//		NSArray*    topLevelObjs = nil;
+//		
+//		// ***** Loads Nib ******
+//		if (![aNib instantiateNibWithOwner:ctrlBarPlatformWindow topLevelObjects:&topLevelObjs])
+//		{
+//			NSLog(@"Warning! Could not load nib file.\n");
+//			return nil;
+//		}
+//		
+//		for(id topView in topLevelObjs)
+//		{
+//			if([topView isKindOfClass:[NSView class]])
+//			{
+//				controlPanelNibView = topView;
+//				break;
+//			}
+//		}
+//		
+//		//This could also be done from IB
+//		[controlPanelNibView setAutoresizingMask:0];
+//		[ctrlBarPlatformWindow setFrame:[controlPanelNibView frame]];
+//		[ctrlBarPlatformWindow addSubview:controlPanelNibView];
+//		[controlPanelNibView release];*/
+//		
+//		NSBundle* bundle = [NSBundle bundleWithIdentifier:@"com.adobe.illustrator.plugins.EmptyPanel"];
+//		BarController* barcontroller = [BarController alloc];
+//		[barcontroller initWithNibName:@"ControlPanel" bundle:bundle];
+//		
+//		NSView* newView = [barcontroller view];
+//		
+//		[ctrlBarPlatformWindow setFrame:[newView frame]];
+//		[ctrlBarPlatformWindow addSubview:newView];
+//		[barcontroller setControlBarRef:fControlBar];
+//        [barcontroller setCtx:GetPluginRef()];
+//
+//        
+//        
+//#endif
+//	}
+//	return error;
+//}
 
 
 ASErr EmptyPanelPlugin::ShutdownPlugin(SPInterfaceMessage *message)
@@ -444,6 +441,14 @@ void EmptyPanelPlugin::UpdateMenu(AIBoolean isVisible, ItemType item)
 ASErr EmptyPanelPlugin::Notify(AINotifierMessage *message)
 {
 	AIErr result = kNoErr;
+    
+    if (message->notifier == fArtSelectionChangedNotifier)
+    {
+       sAIUser->MessageAlert(ai::UnicodeString("init set context"));
+        
+       //[calculator ]
+    }
+    
 	if(strcmp(message->type, kAIApplicationShutdownNotifier) == 0)
 	{
 		

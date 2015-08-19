@@ -43,5 +43,6 @@ extern "C" AIControlBarSuite		*sAIControlBar;
 extern "C" AIDocumentSuite				*sAIDocument;
 extern "C" AIDictionarySuite			*sAIDictionary;
 extern "C" AIDictionaryIteratorSuite	*sAIDictionaryIterator;
+extern	"C" AINotifierSuite				*sAINotifier;
 
 #endif   // __EmptyPanelPluginSuites_H__

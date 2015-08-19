@@ -49,7 +49,8 @@ public:
 	FIXUP_VTABLE_EX(EmptyPanelPlugin, Plugin);
 
 private:
-	
+    CalcController* calculator;
+
 	/**	Handle for the About SDK Plug-ins menu item.
 	*/
 	AIMenuItemHandle fAboutPluginMenu;
@@ -74,9 +75,12 @@ private:
 
 	ASErr AddWidgets();
 	
-	ASErr AddWidgetsToControlBar();
+//	ASErr AddWidgetsToControlBar();
 
 	AIPanelPlatformWindow hDlg;
+    
+    AINotifierHandle		fArtSelectionChangedNotifier;
+
 
 };
 

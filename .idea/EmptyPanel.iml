@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../illustratorapi/illustrator/IAIFilePath.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../illustratorapi/illustrator/IAIFilePath.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../illustratorapi/illustrator/IAIStringFormatUtils.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../illustratorapi/illustrator/IAIStringFormatUtils.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../illustratorapi/illustrator/IAIUnicodeString.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../../illustratorapi/illustrator/IAIUnicodeString.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../common/source/AppContext.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../common/source/AppContext.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/source/FlashUIController.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../common/source/FlashUIController.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/source/IllustratorSDK.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../common/source/IllustratorSDK.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/source/Main.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../common/source/Main.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/source/Plugin.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../common/source/Plugin.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/source/SDKAboutPluginsHelper.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../common/source/SDKAboutPluginsHelper.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/source/SDKErrors.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../common/source/SDKErrors.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/source/SDKPlugPlug.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../common/source/SDKPlugPlug.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../common/source/Suites.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../common/source/Suites.cpp" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

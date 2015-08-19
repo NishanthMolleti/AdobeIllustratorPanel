@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ObjectAttribute : NSObject
+@interface ObjectAttribute : NSObject {
+
+}
+
+
+@property (copy) NSString *value;
+@property (copy) NSString *name;
 
 @end

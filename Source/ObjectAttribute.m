@@ -10,4 +10,26 @@
 
 @implementation ObjectAttribute
 
+@synthesize value;
+@synthesize name;
+
+
+- (id) init
+{
+    self = [super init];
+    if (self) {
+        name =@"Position";
+        value = @"Center";
+    }
+    
+    return self;
+}
+
+
+- (void) dealloc
+{
+    [super dealloc];
+}
+
+
 @end
